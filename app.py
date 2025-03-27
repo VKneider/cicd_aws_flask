@@ -14,7 +14,7 @@ def data():
 
 @app.route('/api/foo', methods=['GET'])
 def foo():
-    return jsonify({"message": "Hello, Foo 3"})
+    return jsonify({"message": "Hello, Foo"})
 
 if __name__ == '__main__':
     app.run(debug=True)
