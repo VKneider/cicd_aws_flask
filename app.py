@@ -16,5 +16,10 @@ def data():
 def foo():
     return jsonify({"message": "Hello, Foo "})
 
+@app.route('/api/vk', methods=['GET'])
+def vk():
+    return jsonify({"message": "Se logró."})
+
+
 if __name__ == '__main__':
     app.run(debug=True)
