@@ -26,5 +26,5 @@ jobs:
           git pull origin main &&
           source venv/bin/activate &&
           sudo venv/bin/python3 -m pip install -r requirements.txt &&
-          sudo systemctl restart my-flask-app
+          sudo systemctl restart cicd_flask
         '
